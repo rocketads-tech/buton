@@ -1,66 +1,7 @@
-.breadcrumbs {
-  width: 100%;
-  padding: 1.5rem 0;
-}
-
-.breadcrumbs ol {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 0.5rem;
-}
-
-.breadcrumbs ol li {
-  white-space: nowrap;
-}
-
-.breadcrumbs ol li:not(:last-child)::after {
-  content: ">";
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 110%;
-  color: var(--textextra);
-}
-
-.breadcrumbs ol li:not(:last-child) a:hover {
-  color: var(--main);
-}
-
-.breadcrumbs ol li a {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 110%;
-  color: var(--textextra);
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-}
-
-.breadcrumbs ol li:last-child {
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.breadcrumbs ol li:last-child a {
-  color: var(--extra);
-  cursor: default;
-  pointer-events: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.no-webp .section-bg {
+.no-webp #login .section-bg {
   background: url("./../img/page_banner_1.png") center center/cover no-repeat; }
 
-.section-bg {
+#login .section-bg {
   padding: 4rem 0 7.75rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -76,7 +17,7 @@
           justify-content: center;
 }
 
-.form-block {
+#login .form-block {
   max-width: 615px;
   width: 100%;
   margin: auto auto;
@@ -98,7 +39,7 @@
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.form-block__title {
+#login .form-block__title {
   font-family: var(--third-family);
   font-weight: 300;
   font-size: 2.5rem;
@@ -106,7 +47,7 @@
   color: var(--extra);
 }
 
-.form-block__subtitle {
+#login .form-block__subtitle {
   max-width: 360px;
   text-align: center;
   font-family: var(--font-family);
@@ -117,7 +58,7 @@
   color: var(--textextra);
 }
 
-.form-block__form {
+#login .form-block__form {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,7 +70,7 @@
   gap: 1.5rem;
 }
 
-.form__item {
+#login .form__item {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,7 +86,7 @@
   position: relative;
 }
 
-.form__item label {
+#login .form__item label {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 1rem;
@@ -153,7 +94,7 @@
   color: var(--extra);
 }
 
-.form__item-row {
+#login .form__item-row {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -167,7 +108,7 @@
   gap: 0.5rem;
 }
 
-.form__item-row__item a {
+#login .form__item-row__item a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 0.75rem;
@@ -177,12 +118,12 @@
   transition: all 0.3s ease;
 }
 
-.form__item-row__item a:hover {
+#login .form__item-row__item a:hover {
   color: var(--extra);
   text-decoration: underline;
 }
 
-.form__item-reminder {
+#login .form__item-reminder {
   margin: 0 auto;
   max-width: 420px;
   width: 100%;
@@ -195,7 +136,7 @@
   color: var(--extra);
 }
 
-.form__item-reminder a {
+#login .form__item-reminder a {
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
@@ -204,11 +145,11 @@
   transition: all 0.3s ease;
 }
 
-.form__item-reminder a:hover {
+#login .form__item-reminder a:hover {
   text-decoration: underline;
 }
 
-.form .input-wrapper {
+#login .form .input-wrapper {
   position: relative;
   width: 100%;
   height: 3rem;
@@ -216,7 +157,7 @@
           box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
 }
 
-.form .input-wrapper svg {
+#login .form .input-wrapper svg {
   position: absolute;
   top: 50%;
   left: 0.5rem;
@@ -228,11 +169,11 @@
   color: var(--extra);
 }
 
-.form .input-wrapper:focus-within svg {
+#login .form .input-wrapper:focus-within svg {
   color: var(--main);
 }
 
-.form__input {
+#login .form__input {
   width: 100%;
   height: 100%;
   border: 1px solid rgba(136, 136, 136, 0.5);
@@ -245,36 +186,36 @@
   color: var(--extra);
 }
 
-.form__input:focus {
+#login .form__input:focus {
   border-color: var(--main);
 }
 
-.form__input:focus::-webkit-input-placeholder {
+#login .form__input:focus::-webkit-input-placeholder {
   color: var(--main);
   opacity: 0.4;
 }
 
-.form__input:focus::-moz-placeholder {
+#login .form__input:focus::-moz-placeholder {
   color: var(--main);
   opacity: 0.4;
 }
 
-.form__input:focus:-ms-input-placeholder {
+#login .form__input:focus:-ms-input-placeholder {
   color: var(--main);
   opacity: 0.4;
 }
 
-.form__input:focus::-ms-input-placeholder {
+#login .form__input:focus::-ms-input-placeholder {
   color: var(--main);
   opacity: 0.4;
 }
 
-.form__input:focus::placeholder {
+#login .form__input:focus::placeholder {
   color: var(--main);
   opacity: 0.4;
 }
 
-.check-block {
+#login .check-block {
   border-radius: 2.5rem;
   width: 100%;
   background: transparent;
@@ -287,7 +228,7 @@
   gap: 0.5rem;
 }
 
-.check-block__label {
+#login .check-block__label {
   font-size: 0.75rem !important;
   color: var(--textextra) !important;
   cursor: pointer;
@@ -299,11 +240,11 @@
   transition: all 0.4s ease;
 }
 
-.check-block:hover .check-block__label {
+#login .check-block:hover .check-block__label {
   color: var(--main) !important;
 }
 
-.check-block__input {
+#login .check-block__input {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -319,12 +260,12 @@
   transition: all 0.2s ease;
 }
 
-.check-block__input:checked {
+#login .check-block__input:checked {
   background-color: var(--main);
   border-color: var(--main);
 }
 
-.check-block__input:checked::after {
+#login .check-block__input:checked::after {
   content: "";
   display: block;
   position: absolute;
@@ -339,64 +280,56 @@
           transform: rotate(45deg);
 }
 
-.check-block__input:checked + .check-block__label {
+#login .check-block__input:checked + .check-block__label {
   color: var(--extra);
 }
 
-.check-block__input:hover {
+#login .check-block__input:hover {
   border-color: var(--main);
 }
 
 @media (min-width: 375px) {
-  .form__item-row {
+  #login .form__item-row {
     gap: 1.5rem;
   }
 
-  .form__item-row__item a {
+  #login .form__item-row__item a {
     font-size: 0.875rem;
   }
 
-  .check-block__label {
+  #login .check-block__label {
     font-size: 0.875rem !important;
   }
 }
 
 @media (min-width: 1600px) {
-  .breadcrumbs ol li:not(:last-child)::after {
-    font-size: clamp(0.875rem, 0.9vw, 1rem);
-  }
-
-  .breadcrumbs ol li a {
-    font-size: clamp(0.875rem, 0.9vw, 1rem);
-  }
-
-  .form-block__title {
+  #login .form-block__title {
     font-size: clamp(2.5rem, 2.5vw, 3.5rem);
   }
 
-  .form-block__subtitle {
+  #login .form-block__subtitle {
     font-size: clamp(1rem, 1vw, 1.25rem);
   }
 
-  .form__item label {
+  #login .form__item label {
     font-size: clamp(1rem, 1vw, 1.25rem);
   }
 
-  .form__item-row__item a {
+  #login .form__item-row__item a {
     font-size: clamp(0.875rem, 0.9vw, 1.15rem);
   }
 
-  .form__item-reminder {
+  #login .form__item-reminder {
     font-size: clamp(1rem, 1vw, 1.25rem);
   }
 
-  .form__input {
+  #login .form__input {
     font-size: clamp(1rem, 1vw, 1.25rem);
   }
 
-  .check-block__label {
+  #login .check-block__label {
     font-size: clamp(0.875rem, 0.9vw, 1.15rem) !important;
   }
 }
 
-.webp .section-bg { background: url(./../img/page_banner_1.webp) center center/cover no-repeat; }
+.webp #login .section-bg { background: url(./../img/page_banner_1.webp) center center/cover no-repeat; }
